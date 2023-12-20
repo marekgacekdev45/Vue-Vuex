@@ -9,7 +9,7 @@
 export default {
   computed: {
 counter(){
-return this.$store.getters.finalCounter
+return this.$store.getters['counter/normalizedCounter']
 }  },
 }
 </script>
